@@ -1,0 +1,19 @@
+{
+  "name": "payment_cms",
+  "version": "1.0.0",
+  "description": "Payment CMS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqbalmunahar/payment_cms.git"
+  },
+  "author": "Iqbal M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqbalmunahar/payment_cms/issues"
+  },
+  "homepage": "https://github.com/iqbalmunahar/payment_cms#readme"
+}
