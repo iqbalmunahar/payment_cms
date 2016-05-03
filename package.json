@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/iqbalmunahar/payment_cms#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.3",
     "body-parser": "^1.15.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "morgan": "^1.7.0",
     "mysql": "^2.10.2"
   }
 }

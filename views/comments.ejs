@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Node JS Express MySQL EJS</title>
+</head>
+<body>
+	<h2>Comments:</h2>
+	<ul>
+		<% comments.forEach(function (comment) { %>
+			<li> <%= comment.user_id %>-<%= comment.text %>-<%= comment.date %></li>
+		<% }) %>
+	</ul>
+</body>
+</html>
