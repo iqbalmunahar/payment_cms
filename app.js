@@ -2,7 +2,9 @@
 var express 		= require('express');
 var bodyParser 	= require('body-parser');
 var http				= require('http');
-var morgan 			= require('morgan')
+var morgan 			= require('morgan');
+var session 		= require('express-session');
+var MySQLStore 	= require('express-mysql-session')(session);
 
 // Custom module //
 // Load mysql db configuration module
